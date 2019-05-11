@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>AddressBook</title>
+	<link rel="stylesheet" href="addressbook.css">
+	<script src="addressbook.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="addForm panel">
+			<h1>Address Book</h1>
+			<label for="fullname" class="labelForm">Name</label>
+			<input type="text" id="fullname" class="formFields" placeholder="Enter your name">
+			<label for="phone" class="labelForm">Phone Number</label>
+			<input type="text" id="phone" class="formFields" placeholder="Phone">
+			<label for="email" class="labelForm">Email</label>
+			<input type="text" id="email" class="formFields" placeholder="Email Here">
+			<br>
+			<br>
+			<button id="add" class="button-blue">Add Contact</button>
+		</div>
+		<div class="contactList">
+			<h1>Contact List</h1>
+			<div class="addbook">
+				<div class="entry">
+					<div class="name"><p></p></div>
+					<div class="email"><p></p></div>
+					<div class="phone"><p></p></div>
+					<div class="del"><a href="#">Delete</a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
